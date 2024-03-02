@@ -6,7 +6,6 @@ function isLeapYear(year) {
     }
 }
 
-// Примеры вызова функции
 isLeapYear(1984);
 isLeapYear(2003);
 isLeapYear(4);
