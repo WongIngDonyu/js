@@ -10,12 +10,12 @@ function calculator(num1, func, num2){
         case "*":
             result=num1*num2
             break
-        case "%":
+        case "/":
             if(num2===0){
                 console.log("На нуль делить нельзя")
                 return
             }
-            result=num1%num2
+            result=num1/num2
             break
         default:
             console.log("Неверная операция");
