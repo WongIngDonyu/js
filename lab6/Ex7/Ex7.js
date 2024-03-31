@@ -3,7 +3,7 @@ function lockedProfile() {
 
     profiles.forEach(function(profile) {
         var showButton = profile.querySelector('button')
-        var hiddenFields = profile.querySelector('div[id^="user"][id$="HiddenFields"]')
+        var hiddenFields = profile.querySelector('div[id^="user"]')
         var lockRadio = profile.querySelector('input[type="radio"][value="lock"]')
         var unlockRadio = profile.querySelector('input[type="radio"][value="unlock"]')
         function handleShowMoreClick() {
@@ -34,5 +34,3 @@ function lockedProfile() {
         }
     )
 }
-
-lockedProfile()
